@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- TODO (tmavý režim): po přidání tmavého schématu změňte content na "light dark" -->
+  <meta name="color-scheme" content="light">
+  <title>Thao Nhi Pham – osobní stránka</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#obsah">Přejít na obsah</a>
+
+  <header class="site-header">
+    <h1>Thao Nhi Pham</h1>
+    <p>Jsem studentkou stredni skoly.</p>
+    <nav aria-label="Hlavní navigace">
+      <ul>
+        <li><a href="#o-mne">O mně</a></li>
+        <li><a href="#projekty">Projekty</a></li>
+        <li><a href="#dovednosti">Dovednosti</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="obsah">
+
+    <section id="o-mne" class="card" aria-labelledby="o-mne-nadpis">
+      <h2 id="o-mne-nadpis">O mně</h2>
+      <img class="random-picture" src ="img/SPSE-Jecna_Logotyp2.png" alt="logo"/>
+      <p> Jsem studentkou stredni prumyslove skoly.</p>
+    </section>
+
+    <section id="projekty" aria-labelledby="projekty-nadpis">
+      <h2 id="projekty-nadpis">Projekty</h2>
+      <article class="card">
+        <h3>Detekce pozdniho prichodu</h3>
+        <img class="random-picture" src ="img/detekce.png" alt="datekce"/>
+        <p>Program ma za ukol zjistit zda student prisel do skoly vcas pomoci otisky prstu.</p>
+      </article>
+    </section>
+    <article class="card">
+        <h3>Postovni box</h3>
+       <img class="random-picture" src ="img/box.png" alt="postovni-box"/>
+       <p>Postovni box k prevzeti zasilky..</p>
+      </article>
+    </section>
+    <article class="card">
+        <h3>Wifi blokovacka</h3>
+        <img class="random-picture" src ="img/wifi.png" alt="wifi-blokovacka"/>
+        <p>Mas zablokovat Wifi v okoli</p>
+      </article>
+    </section>
+    
+
+    <section id="dovednosti" aria-labelledby="dovednosti-nadpis">
+      <h2 id="dovednosti-nadpis">Dovednosti</h2>
+      <table>
+        <caption>Tabulka schopnosti</caption>
+        <thead>
+          <tr>
+            <th scope="col">Dovednost</th>
+            <th scope="col">Úroveň</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Anglicky jazyk </th>
+            <td>C1</td>
+          </tr>
+        </tbody>
+         <tbody>
+          <tr>
+            <th scope="row">Cesky jazyk </th>
+            <td>B2</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="kontakt" class="card" aria-labelledby="kontakt-nadpis">
+      <h2 id="kontakt-nadpis">Kontakt</h2>
+      <address>
+        <p>E-mail: <a href="mailto:TODO">phamovathaonhi@gmail.com</a></p>
+      </address>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Thao Nhi Pham</p>
+  </footer>
+</body>
+</html>
